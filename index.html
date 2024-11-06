@@ -49,7 +49,7 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Madrigal da ACC</h1>
+        <h1 class="sitename">{{data.global.sitename}}</h1>
       </a>
 
       {% include navmenu.html %}
@@ -205,169 +205,26 @@ a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slid
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">Todas</li>
-            <li data-filter=".filter-anon">Anônimo</li>
-            <li data-filter=".filter-arbeau">Arbeau</li>
-            <li data-filter=".filter-dowland">Dowland</li>
-            <li data-filter=".filter-cancdelvas">Canc. d'Elvas</li>
-            <li data-filter=".filter-cancpalacio">Canc. de Palacio</li>
-            <li data-filter=".filter-encina">Encina</li>
-            <li data-filter=".filter-henryvii">Henry VIII</li>
-            <li data-filter=".filter-lassus">Lassus</li>
-            <li data-filter=".filter-palestrina">Palestrina</li>
-            <li data-filter=".filter-ronsard">Ronsard</li>
-          </ul><!-- End Portfolio Filters -->
+            {% for filter in site.data.filters %}
+              <li data-filter=".filter-{{filter[0]}}">{{filter[1].name}}</li>
+            {% endif }
+          </ul>
 
           <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-dowland">
-              <div class="portfolio-content h-100">
-                  <img src="assets/img/songs/stickers-templar-cross-non-nobis-domine.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Non Nobis Domine</h4>
-<!--                     <a href="" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                  </div>
+            {% for song in site.data.songs %}
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-{{song[1].filter}}">
+                <div class="portfolio-content h-100">
+                    <img src="assets/img/songs/{{song[1].image}}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <h4>{{song[1].title}}</h4>
+                        {% if song[1] contains "description" %}
+                         <a href="{{song[0]}}.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                        {% endif %}
+                    </div>
+                </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-palestrina">
-              <div class="portfolio-content h-100">
-                  <img src="assets/img/songs/palestrina.jpg" class="figure-img img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Jesu Rex Admirabilis</h4>
-                    <a href="jesu-rex.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-              </div>
-            </div>
-            
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-lassus">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/songs/magnificat.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Magnificat VIII toni Lassus</h4>
-<!--                   <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-cancdelvas">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/songs/joana.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Porque não me vês Joana</h4>
-<!--                   <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-cancpalacio">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/songs/cancpalacio.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Dindirindin</h4>
-<!--                   <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-encina">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/songs/juandeencina.webp" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Ay triste que vengo</h4>
-<!--                   <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-cancpalacio">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/songs/cancpalacio.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Pase'el agua, ma Julieta dama</h4>
-<!--                   <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-palestrina">
-              <div class="portfolio-content h-100">
-                  <img src="assets/img/songs/palestrina.jpg" class="figure-img img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Ahi, che quest'occhi miei</h4>
-                    <a href="ahi.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-lassus">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/songs/lassus.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>O occhi, manza mia</h4>
-<!--                   <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-dowland">
-              <div class="portfolio-content h-100">
-                  <img src="assets/img/songs/dowland.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Now, o now I needs must part</h4>
-<!--                     <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                  </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-arbeau">
-              <div class="portfolio-content h-100">
-                  <img src="assets/img/songs/arbeau.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Belle qui tient ma vie</h4>
-<!--                     <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                  </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ronsard">
-              <div class="portfolio-content h-100">
-                  <img src="assets/img/songs/ronsard.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Mignonne, allons voir si la rose</h4>
-                       <a href="mignonne.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                   </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-henryvii">
-              <div class="portfolio-content h-100">
-                  <img src="assets/img/songs/henryviii.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Pastime with good company</h4>
-<!--                     <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                  </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-encina filter-cancpalacio">
-              <div class="portfolio-content h-100">
-                  <img src="assets/img/songs/hoycomamos.webp" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Hoy comamos y bebamos</h4>
-<!--                     <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                  </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-anon">
-              <div class="portfolio-content h-100">
-                  <img src="assets/img/songs/sibilla.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>El cant de la Sibilla</h4>
-<!--                     <a href="portfolio-details.html" title="Mais detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
- -->                  </div>
-              </div>
-            </div>
+            {% endfor %}
 
           </div><!-- End Portfolio Container -->
 

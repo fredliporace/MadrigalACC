@@ -1,5 +1,7 @@
 ahi:
   title: Ahi, che quest'occhi miei
+  image: palestrina.jpg
+  filter: palestrina
   description:
       -
         Palestrina é mais conhecido pelas suas obras sacras e espirituais mas compôs também
@@ -33,6 +35,8 @@ ahi:
             que eu escolheria morrer como um mal menor.
 jesu-rex:
   title: Jesu Rex Admirabilis
+  image: palestrina.jpg
+  filter: palestrina
   description:
       -
         Giovanni Pierluigi da Palestrina foi um compositor italiano da Renascença.
@@ -68,6 +72,8 @@ jesu-rex:
             preechendo o mundo com Sua douçura.
 mignonne:
   title: Mignonne, allons voir si la rose
+  image: ronsard.jpg
+  filter: ronsard
   description:
       - A letra é um dos poemas mais conhecidos de Pierre de Ronsard, "Ode a Cassandre". Ronsard foi um dos mais famosos e talentosos poetas da corte francesa na metade do século XVI.
       - Neste poema de Ronsard encontramos interlaçados os temas de amor, natureza e carpe diem.
@@ -124,3 +130,51 @@ mignonne:
               Colhei, colhei a mocidade
               A velhice, como a esta flor,
               Fará murchar vossa beldade.        
+nom-nobis:
+  title: Non Nobis Domine
+  image: stickers-templar-cross-non-nobis-domine.jpg
+  filter: dowland
+magnificat-lassus:
+  title: Magnificat VIII toni Lassus
+  image: magnificat.jpg
+  filter: lassus
+joana:
+  title: Porque não me vês Joana
+  image: joana.jpg
+  filter: cancdelvas
+dindirindin:
+  title: Dindirindin
+  image: cancpalacio.jpg
+  filter: cancpalacio 
+ay-triste:
+  title: Ay triste que vengo
+  image: juandeencina.webp
+  filter: encina 
+pase-el-agua:
+  title: Pase'el agua, ma Julieta dama
+  image: cancpalacio.jpg
+  filter: cancpalacio
+occhi:
+  title: O occhi, manza mia
+  image: lassus.jpg
+  filter: lassus 
+now-o-now:
+  title: Now, o now I needs must part
+  image: dowland.jpg
+  filter: dowland 
+belle:
+  title: Belle qui tient ma vie
+  image: arbeau.jpg
+  filter: arbeau 
+pastime:
+  title: Pastime with good company
+  image: henryviii.webp
+  filter: henryvii 
+hoy-comamos:
+  title: Hoy comamos y bebamos
+  image: hoycomamos.webp
+  filter: cancpalacio 
+sibilla:
+  title: El cant de la Sibilla
+  image: sibilla.jpg
+  filter: anon 
