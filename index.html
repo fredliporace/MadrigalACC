@@ -207,7 +207,7 @@ a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slid
             <li data-filter="*" class="filter-active">Todas</li>
             {% for filter in site.data.filters %}
               <li data-filter=".filter-{{filter[0]}}">{{filter[1].name}}</li>
-            {% endif }
+            {% endfor %}
           </ul>
 
           <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
