@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
+{% assign yyyymmdd = page.path | replace: ".", "-" | split: "-" %}
+{% assign event-key = yyyymmdd | slice: 0,4 | join: "-" %}
+{% assign event-date = yyyymmdd | slice: 0,3 | reverse | join: "/" %}
+{% assign event = site.data.events[event-key] %}
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Jesu Rex Admirabilis</title>
+  <title>{{ event.place }}</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -44,22 +49,11 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Madrigal da ACC</h1>
+        <h1 class="sitename">{{data.global.sitename}}</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html#hero" class="active">Início</a></li>
-          <li><a href="index.html#repertorio">Repertório</a></li>
-          <li class="dropdown"><a href="#"><span>Apresentações</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="index.html#aprconfirmadas">Confirmadas</a></li>
-              <li><a href="index.html#aprpassadas">Passadas</a></li>
-            </ul>
-          </li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+      {% include navmenu.html %}
+
     </div>
   </header>
 
@@ -68,12 +62,14 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container">
-        <h1>Igreja Santo Inácio, 16/11/2024</h1>
+        <!--<h1>Igreja Santo Inácio, 16/11/2024</h1>-->
+        <h1>{{ event.place }}</h1>
+        <h2>{{ event-date }} ({{ event.weekday }}), {{ event.time }} hs</h2>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Início</a></li>
             <li><a href="index.html#aprconfirmadas">Apresentações</a></li>
-            <li class="current">Igreja Santo Inácio, 16/11/2024</li>
+            <li class="current">{{ event.place }}, {{ event-date }}</li>
           </ol>
         </nav>
       </div>
@@ -136,54 +132,15 @@
             <div class="portfolio-description">
               <h2>Programação</h2>
               <ol>
-                <li>
-                  Non nobis Domine</a>
-                </li>
-                <li>
-                  <a href="jesu-rex.html">Jesu Rex Admirabilis</a>
-                </li>
-                <li>
-                  <a href="ahi.html">Ahi che quest'occhi miei</a>
-                </li>
-                <li>
-                  Magnificat
-                </li>
-                <li>
-                  Por que me não ves Joana
-                </li>
-                <li>
-                  Dindirindin
-                </li>
-                <li>
-                  Ay triste que vengo
-                </li>
-                <li>
-                  Pase el agoa
-                </li>
-                <li>
-                  Ahi, che quest'occhi miei
-                </li>
-                <li>
-                  O occhi manza mia
-                </li>
-                <li>
-                  Now, o now I needs must part
-                </li>
-                <li>
-                  Belle qui tient ma vie
-                </li>
-                <li>
-                  <a href="mignonne.html">Mignonne, allons voir si la rose</a>
-                </li>
-                <li>
-                  Pastime with good company
-                </li>
-                <li>
-                  Sola me dejaste
-                </li>
-                <li>
-                  Hoy comamos y bebamos
-                </li>
+                {% for song in event.program %}
+                  <li>
+                  {% if site.data.songs[song] contains "description" %}
+                    <a href="{{ song }}.html">{{ site.data.songs[song].title }}</a>
+                  {% else %}
+                    {{ site.data.songs[song].title }}
+                  {% endif %}
+                  </li>
+                {% endfor %}
               </ol>
 
               <!--
@@ -200,8 +157,6 @@
                 </div>
               </div>
               -->
-
-
             </div>
           </div>
 
@@ -210,11 +165,9 @@
             <div class="portfolio-info">
               <h3>Ficha técnica</h3>
               <ul>
-                <li><strong>Alaúde</strong>Alberto Brandão</li>
-                <li><strong>Flauta doce e percussão</strong>Isa Machado</li>
-                <li><strong>Flauta doce e viola da gamba</strong>Luiz Carlos Peçanha</li>
-                <li><strong>Preparação vocal</strong>Noeli Melo</li>
-                <li><strong>Regência</strong>Luiz Carlos Peçanha</li>
+                {% for line in event.record %}
+                  <li><strong>{{ line[0] }}</strong>{{ line[1] }}</li>
+                {% endfor %}
                 <!--
                 <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
                 <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>

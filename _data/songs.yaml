@@ -130,7 +130,7 @@ mignonne:
               Colhei, colhei a mocidade
               A velhice, como a esta flor,
               Fará murchar vossa beldade.        
-nom-nobis:
+non-nobis:
   title: Non Nobis Domine
   image: stickers-templar-cross-non-nobis-domine.jpg
   filter: dowland
@@ -177,4 +177,8 @@ hoy-comamos:
 sibilla:
   title: El cant de la Sibilla
   image: sibilla.jpg
-  filter: anon 
+  filter: anon
+sola:
+  title: Sola me dejaste
+  image: cancpalacio.jpg
+  filter: anon
