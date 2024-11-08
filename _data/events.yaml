@@ -1,0 +1,44 @@
+2024-11-16-0:
+  place: Igreja Santo Inácio
+  time: "18:00"
+  weekday: sábado
+  program:
+    - non-nobis
+    - jesu-rex
+    - magnificat-lassus
+    - joana
+    - dindirindin
+    - ay-triste
+    - pase-el-agua
+    - ahi
+    - occhi
+    - now-o-now
+    - belle
+    - mignonne
+    - pastime
+    - sola
+    - hoy-comamos
+  record:
+    Alaúde: Alberto Brandão
+    Flauta doce e percussão: Isa Machado
+    Flauta doce e viola da gamba: Luiz Carlos Peçanha
+    Preparação vocal: Noeli Melo
+    Regência: Luiz Carlos Peçanha
+2024-12-13-0:
+  place: Igreja Santo Antônio dos Pobres
+  time: "18:00"
+  weekday: sexta-feira
+  description:
+    - Apresentação com o Coro de Câmara da ACC
+2024-12-14-0:
+  place: Igreja dos Sagrados Corações de Jesus e Maria
+  time: "18:00"
+  weekday: sábado
+  description:
+    - Encontro de coros da ACC
+2024-12-22-0:
+  place:  Igreja Martin Luther
+  time: "10:00"
+  weekday: domingo
+  description:
+    - Apresentação com o Coro Intercantus

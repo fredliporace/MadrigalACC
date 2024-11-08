@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% assign id = page.path | split: "." | first%}
-{% assign song = site.data.songs[id] %}
+{% assign song-id = page.path | split: "." | first %}
+{% assign song = site.data.songs[song-id] %}
 
 <head>
   <meta charset="utf-8">
