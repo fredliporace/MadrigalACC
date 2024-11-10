@@ -2,6 +2,9 @@
   place: Igreja Santo Inácio
   time: "18:00"
   weekday: sábado
+  carousel:
+    - igreja_santo_inacio.jpg
+    - igreja_santo_inacio_interior.jpg
   program:
     - non-nobis
     - jesu-rex

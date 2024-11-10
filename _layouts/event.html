@@ -59,10 +59,38 @@
 
   <main class="main">
 
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        {% for item in event.carousel %}
+          <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
+            <img src="assets/img/places/{{item}}" alt="">
+            <div class="carousel-container">
+              <h2>{{ event.place }}</h2>
+              <p>{{ event-date }} ({{ event.weekday }}), {{ event.time }} hs</p>
+            </div>
+          </div>
+        {% endfor %}
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+  
+      </div>
+    </section>
+    
     <!-- Page Title -->
+    <!--
     <div class="page-title dark-background">
       <div class="container">
-        <!--<h1>Igreja Santo Inácio, 16/11/2024</h1>-->
         <h1>{{ event.place }}</h1>
         <h2>{{ event-date }} ({{ event.weekday }}), {{ event.time }} hs</h2>
         <nav class="breadcrumbs">
@@ -80,7 +108,7 @@
 
       <div class="container-fluid" data-aos="fade-up">
 
-        <!--
+       <!--
         <div class="portfolio-details-slider swiper init-swiper">
           <script type="application/json" class="swiper-config">
             {
@@ -102,29 +130,15 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/app-1.jpg" alt="">
+              <img src="assets/img/places/igreja_santo_inacio.jpg" alt="">
             </div>
-
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/product-1.jpg" alt="">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/branding-1.jpg" alt="">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/books-1.jpg" alt="">
-            </div>
-
           </div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
           <div class="swiper-pagination"></div>
         </div>
-        -->
+      -->
 
         <div class="row justify-content-between gy-4 mt-4">
           <div class="col-lg-8" data-aos="fade-up">
