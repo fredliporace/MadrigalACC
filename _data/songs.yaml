@@ -75,15 +75,19 @@ mignonne:
   image: ronsard.jpg
   filter: ronsard
   description:
-      - A letra é um dos poemas mais conhecidos de Pierre de Ronsard, "Ode a Cassandre". Ronsard foi um dos mais famosos e talentosos poetas da corte francesa na metade do século XVI.
+      - A letra é um dos poemas mais conhecidos da língua francesa, "Ode à Cassandre". Pierre de Ronsard foi um dos mais famosos e talentosos poetas da corte francesa na metade do século XVI.
       - Neste poema de Ronsard encontramos interlaçados os temas de amor, natureza e carpe diem.
   record:
-      autor: Pierre de Ronsard
-      ano: ND
-      língua: Francês    
-      tradução: Mário Laranjeira (2004)
-  # Fonte
+      autor (texto): Pierre de Ronsard
+      ano (texto): 1552/1553
+      língua: Francês
+      tradução: <a href="https://primeiros-escritos.blogspot.com/2019/02/ode-cassandre-ronsard.html">Mário Laranjeira<a> (2004)
+      autor (música): Jehan Chardavoine
+      ano (música): <a href="https://imslp.org/wiki/Mignonne_allons_voir_si_la_rose_(Chardavoine%2C_Jehan)">1576</a>
+
+  # Fontes
   # https://primeiros-escritos.blogspot.com/2019/02/ode-cassandre-ronsard.html
+  # https://megapalpus.wordpress.com/textes/sequence-3-la-poesie-amoureuse-de-lamour-a-la-mort/ode-a-cassandre-pierre-de-ronsard-15521553/ode-a-cassandre-lecture-analytique/#:~:text=Ce%20po%C3%A8me%20de%20Ronsard%2C%20%C2%AB%20Ode,elle%20va%20devenir%20son%20inspiratrice.
   lyrics:
       -
           original:
