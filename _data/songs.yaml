@@ -3,6 +3,7 @@ ahi:
   image: palestrina.jpg
   filter: 
     - palestrina
+    - secular
   description:
       -
         Palestrina é mais conhecido pelas suas obras sacras e espirituais mas compôs também
@@ -13,7 +14,7 @@ ahi:
         Foi publicada em 1589, cinco anos antes de sua morte.
   record:
       autor: Giovanni Pierluigi da Palestrina
-      ano: 1589
+      ano: <a href="https://imslp.org/wiki/Ahi_che_quest'_occhi_miei_(Palestrina%2C_Giovanni_Pierluigi_da)">1589</a>
       língua: Italiano
   lyrics:
       -
@@ -39,6 +40,7 @@ jesu-rex:
   image: palestrina.jpg
   filter: 
     - palestrina
+    - sacra
   description:
       -
         Giovanni Pierluigi da Palestrina foi um compositor italiano da Renascença.
@@ -47,42 +49,43 @@ jesu-rex:
         e seu trabalho pode ser visto como uma soma da polifonia da Renascença.
   record:
       autor: Giovanni Pierluigi da Palestrina
-      ano: ND
+      ano: <a href="https://www.cpdl.org/wiki/index.php/Jesu_Rex_admirabilis_(Giovanni_Pierluigi_da_Palestrina)">1586</a>
       língua: Latim
   lyrics:
       -
           original:
             Jesu, rex admirabilis
-            et triumphator nobilis,
-            dulcedo ineffabilis,
-            totus desiderabilis.
+            Et triumphator nobilis,
+            Dulcedo ineffabilis,
+            Totus desiderabilis.
           translation:
             Jesus, o rei admirável
-            e nobre triunfante,
+            e nobre conquistador,
             de indescritível doçura,
             querido por todos.
       -
           original:
-            mane nobiscum, Domine,
-            et nos illustra lumine,
-            pulsa mentis caligine,
-            mundum reple ducedine.
+            Mane nobiscum, Domine,
+            Et nos illustra lumine,
+            Pulsa mentis caligine,
+            Mundum reple ducedine.
           translation:
-            Permaneça conosco, Senhor.
+            Permaneça conosco, Senhor,
+            e nos ilumine com Sua luz.
             Disperse a escuridão de nossas almas
-            e nos ilumine com Sua luz,
             preechendo o mundo com Sua douçura.
 mignonne:
   title: Mignonne, allons voir si la rose
   image: ronsard.jpg
   filter:
     - ronsard
+    - secular
   description:
       - A letra é um dos poemas mais conhecidos da língua francesa, "Ode à Cassandre". Pierre de Ronsard foi um dos mais famosos e talentosos poetas da corte francesa na metade do século XVI.
-      - Neste poema de Ronsard encontramos interlaçados os temas de amor, natureza e carpe diem.
+      - Neste poema de Ronsard encontramos interlaçados os temas de amor, natureza e carpe diem, caros aos poetas da "<a href="https://megapalpus.wordpress.com/textes/sequence-3-la-poesie-amoureuse-de-lamour-a-la-mort/ode-a-cassandre-pierre-de-ronsard-15521553/ode-a-cassandre-lecture-analytique/#sdfootnote2sym">La Pléiade</a>".
   record:
       autor (texto): Pierre de Ronsard
-      ano (texto): 1552/1553
+      ano (texto): <a href="https://megapalpus.wordpress.com/textes/sequence-3-la-poesie-amoureuse-de-lamour-a-la-mort/ode-a-cassandre-pierre-de-ronsard-15521553/ode-a-cassandre-lecture-analytique/#sdfootnote2sym">1552/1553</a>
       língua: Francês
       tradução: <a href="https://primeiros-escritos.blogspot.com/2019/02/ode-cassandre-ronsard.html">Mário Laranjeira<a> (2004)
       autor (música): Jehan Chardavoine
@@ -164,10 +167,45 @@ ay-triste:
     - encina
     - cancpalacio
 pase-el-agua:
+  # https://static1.squarespace.com/static/520e2816e4b004c7f37cd29d/t/62a7a35d75ddee46fb8fc379/1655153515456/Conv+Video+Program.pdf
   title: Pase'el agua, ma Julieta dama
   image: cancpalacio.jpg
   filter:
     - cancpalacio
+    - anon
+    - secular
+  description:
+    - Várias canções do Cancionero Musical de Palacio são "macarrônicas", com textos combinando várias línguas
+      de maneira caprichosa, muitas vezes na mesma frase. Pase el agoa é uma destas peças, com texto em Português Galego
+      e Francês. Julieta deve ter ficado impressionada.
+    - Descrição obtida do <a href="https://www.early-music.org/">Texas Early Music Project</a>.
+  record:
+      autor: Anônimo
+      ano: <a href="https://www.cpdl.org/wiki/index.php/Pase_el_agoa_(Anonymous)">Final séc. XV, início séc XVI</a>
+      língua: Português Galego, Francês
+  lyrics:
+    -
+      original:
+        Pase el agoa, ma Julieta Dama.
+        Pase el agoa, Venite vous a moy.
+      translation:
+        Venha até mim do outro lado da água,
+        minha Dama Julieta.
+        Venha até mim.
+    -
+      original:
+        Ju me’n anay en un vergel
+        Tres rosetas fui coller.
+        Ma Julioleta Dama.
+      translation:
+        Eu fui até a floresta,
+        Para lá colher três rosas
+        Minha pequena Dama Julieta
+    -
+      original:
+        Pase el agoa, Venite vous a moy.
+      translation:
+        Venha até mim do outro lado da água.
 occhi:
   title: O occhi, manza mia
   image: lassus.jpg

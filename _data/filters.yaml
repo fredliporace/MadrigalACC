@@ -18,3 +18,7 @@ palestrina:
   name: Palestrina
 ronsard:
   name: Ronsard
+sacra:
+  name: Sacra
+secular:
+  name: Secular
