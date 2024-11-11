@@ -1243,6 +1243,7 @@ section,
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+  /*opacity: 80%;*/
 }
 
 .portfolio .portfolio-content .portfolio-info {
@@ -1256,6 +1257,15 @@ section,
 }
 
 .portfolio .portfolio-content .portfolio-info h4 {
+  font-size: 14px;
+  padding: 5px 10px;
+  font-weight: 400;
+  color: #ffffff;
+  display: inline-block;
+  background-color: var(--accent-color);
+}
+
+.portfolio .portfolio-content .portfolio-info .h4link {
   font-size: 14px;
   padding: 5px 10px;
   font-weight: 400;
@@ -1279,8 +1289,9 @@ section,
 .portfolio .portfolio-content .portfolio-info .preview-link,
 .portfolio .portfolio-content .portfolio-info .details-link {
   position: absolute;
-  left: calc(50% - 40px);
-  font-size: 26px;
+  /*left: calc(50% - 40px);*/
+  left: calc(50% - 25px);
+  font-size: 40px;
   top: calc(50% - 14px);
   color: #fff;
   transition: 0.3s;
@@ -1292,11 +1303,13 @@ section,
   color: var(--accent-color);
 }
 
+/*
 .portfolio .portfolio-content .portfolio-info .details-link {
   left: 50%;
   font-size: 34px;
   line-height: 0;
 }
+*/
 
 .portfolio .portfolio-content:hover .portfolio-info {
   opacity: 1;
