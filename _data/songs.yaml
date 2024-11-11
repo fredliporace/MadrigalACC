@@ -1,7 +1,8 @@
 ahi:
   title: Ahi, che quest'occhi miei
   image: palestrina.jpg
-  filter: palestrina
+  filter: 
+    - palestrina
   description:
       -
         Palestrina é mais conhecido pelas suas obras sacras e espirituais mas compôs também
@@ -36,7 +37,8 @@ ahi:
 jesu-rex:
   title: Jesu Rex Admirabilis
   image: palestrina.jpg
-  filter: palestrina
+  filter: 
+    - palestrina
   description:
       -
         Giovanni Pierluigi da Palestrina foi um compositor italiano da Renascença.
@@ -73,7 +75,8 @@ jesu-rex:
 mignonne:
   title: Mignonne, allons voir si la rose
   image: ronsard.jpg
-  filter: ronsard
+  filter:
+    - ronsard
   description:
       - A letra é um dos poemas mais conhecidos da língua francesa, "Ode à Cassandre". Pierre de Ronsard foi um dos mais famosos e talentosos poetas da corte francesa na metade do século XVI.
       - Neste poema de Ronsard encontramos interlaçados os temas de amor, natureza e carpe diem.
@@ -137,52 +140,66 @@ mignonne:
 non-nobis:
   title: Non Nobis Domine
   image: stickers-templar-cross-non-nobis-domine.jpg
-  filter: dowland
+  filter:
+    - dowland
 magnificat-lassus:
   title: Magnificat VIII toni Lassus
   image: magnificat.jpg
-  filter: lassus
+  filter:
+    - lassus
 joana:
   title: Porque não me vês Joana
   image: joana.jpg
-  filter: cancdelvas
+  filter:
+    - cancdelvas
 dindirindin:
   title: Dindirindin
   image: cancpalacio.jpg
-  filter: cancpalacio 
+  filter:
+    - cancpalacio 
 ay-triste:
   title: Ay triste que vengo
   image: juandeencina.webp
-  filter: encina 
+  filter:
+    - encina
+    - cancpalacio
 pase-el-agua:
   title: Pase'el agua, ma Julieta dama
   image: cancpalacio.jpg
-  filter: cancpalacio
+  filter:
+    - cancpalacio
 occhi:
   title: O occhi, manza mia
   image: lassus.jpg
-  filter: lassus 
+  filter:
+    - lassus 
 now-o-now:
   title: Now, o now I needs must part
   image: dowland.jpg
-  filter: dowland 
+  filter:
+    - dowland 
 belle:
   title: Belle qui tient ma vie
   image: arbeau.jpg
-  filter: arbeau 
+  filter:
+    - arbeau 
 pastime:
   title: Pastime with good company
   image: henryviii.webp
-  filter: henryvii 
+  filter:
+    - henryvii 
 hoy-comamos:
   title: Hoy comamos y bebamos
   image: hoycomamos.webp
-  filter: cancpalacio 
+  filter:
+    - cancpalacio 
 sibilla:
   title: El cant de la Sibilla
   image: sibilla.jpg
-  filter: anon
+  filter:
+    - anon
 sola:
   title: Sola me dejaste
   image: cancpalacio.jpg
-  filter: anon
+  filter:
+    - anon

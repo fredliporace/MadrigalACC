@@ -216,7 +216,7 @@ a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slid
           <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             {% for song in site.data.songs %}
-              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-{{song[1].filter}}">
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item {% for filter in song[1].filter %}filter-{{filter}} {% endfor %}">
                 <div class="portfolio-content h-100">
                     <img src="assets/img/songs/{{song[1].image}}" class="img-fluid" alt="">
                     <div class="portfolio-info">
