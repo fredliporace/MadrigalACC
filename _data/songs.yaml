@@ -230,7 +230,8 @@ hoy-comamos:
   title: Hoy comamos y bebamos
   image: hoycomamos.webp
   filter:
-    - cancpalacio 
+    - cancpalacio
+    - encina
 sibilla:
   title: El cant de la Sibilla
   image: sibilla.jpg
