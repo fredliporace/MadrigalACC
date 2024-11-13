@@ -100,27 +100,7 @@ a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slid
 
         <div class="row gy-4">
 
-          {% for event in site.data.events %}
-            {% assign yyyymmdd = event[0] | split: "-" %}
-            {% assign event-date = yyyymmdd | slice: 0,3 | reverse | join: "/" %}
-            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon flex-shrink-0"><i class="bi bi-file-music"></i></div>
-              <div>
-                <h4 class="title">{{ event[1].place }}</h4>
-                <p class="description">{{ event-date }}, {{ event[1].weekday }}, {{ event[1].time }} hs</p>
-                {% if event[1] contains "description" %}
-                  {% for desc in event[1].description %}
-                    <p class="description">{{ desc }}</p>
-                  {% endfor %}
-                {% endif %}
-                {% if event[1] contains "program" %}
-                  <a href="{{ event[0] }}.html" class="readmore stretched-link"><span>Programação</span><i class="bi bi-arrow-right"></i></a>
-                {% else %}
-                  <p class="description">Programação em breve</p>
-                {% endif %}
-              </div>
-            </div>
-          {% endfor %}
+          {% include eventloop.html status="scheduled" %}
 
           <!-- End Service Item -->
 
@@ -182,17 +162,31 @@ a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slid
 
     <!-- Apresentações passadas -->
     <section id="aprpassadas" class="services section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Apresentações Passadas</h2>
-      </div><!-- End Section Title -->
-    
-      <div class="container">
       </div>
-
+      <div class="container">
+        <div class="row gy-4">
+          {% include eventloop.html status="past"  %}
+        </div>
+      </div>
     </section>
-      
+
+    <!-- Apresentações canceladas -->
+    <section id="aprcanceladas" class="services section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Apresentações Canceladas</h2>
+      </div><!-- End Section Title -->
+      <div class="container">
+        <div class="row gy-4">
+          {% include eventloop.html status="cancelled" %}
+        </div>
+      </div>
+    </section>
+    
+
     <!-- Repertório -->
     <section id="repertorio" class="portfolio section">
 
