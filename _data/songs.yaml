@@ -173,7 +173,7 @@ ay-triste:
       língua: Espanhol antigo
   description:
     - Este <a href="https://escolamusicartchapeco.com.br/glossario/o-que-e-villancico/#:~:text=Villancico%20%C3%A9%20um%20g%C3%AAnero%20musical,festividades%20religiosas%2C%20como%20o%20Natal.">Villancico</a> é o relato de um fulminante amor à primeira vista, frustrado pela diferença de nível social - note a insistência na frase "maguera pastor" no estribilho.
-    - "Fontes: <a href=\"https://musicalyanoculebrones.blogspot.com/2017/07/juan-del-encina-analisis-de-dos.html?m=1\">Juan del Encina: Análisis de los villancicos<a> (descrição), <a href=\"http://chorale.chanterive.free.fr/topic1/Repertoire/Ay_triste.html\">Chorale Chanterive</a> (tradução)"
+    - "Fontes: <a href=\"https://musicalyanoculebrones.blogspot.com/2017/07/juan-del-encina-analisis-de-dos.html?m=1\">Juan del Encina: Análisis de los villancicos</a> (descrição), <a href=\"http://chorale.chanterive.free.fr/topic1/Repertoire/Ay_triste.html\">Chorale Chanterive</a> (tradução)</a>"
   lyrics:
     -
       original:
@@ -204,7 +204,6 @@ ay-triste:
         magüera pastor.
       translation:
         Ao vê-la fiquei apaixonado. Fiquei sem forças, fiquei sem descanso, fiquei triste, vencido pelo amor, apesar de ser pastor.
-
 pase-el-agua:
   # https://static1.squarespace.com/static/520e2816e4b004c7f37cd29d/t/62a7a35d75ddee46fb8fc379/1655153515456/Conv+Video+Program.pdf
   title: Pase'el agoa, ma Julieta dama
@@ -271,6 +270,60 @@ hoy-comamos:
   filter:
     - cancpalacio
     - encina
+    - secular
+  record:
+      autor: Juan del Encina
+      ano: <a href="https://www.cpdl.org/wiki/index.php/Ay,_triste_que_vengo_(Juan_del_Encina)">1465</a>
+      língua: Espanhol antigo
+  description:
+    - Este <a href="https://escolamusicartchapeco.com.br/glossario/o-que-e-villancico/#:~:text=Villancico%20%C3%A9%20um%20g%C3%AAnero%20musical,festividades%20religiosas%2C%20como%20o%20Natal.">Villancico</a> o final de uma peça protagonizada por quatro rústicos cujos nomes encontramos na letra, uma canção de antruejo, ou seja, de carnaval, festa em que os excessos são permitidos.
+    - "Fontes: <a href=\"https://musicalyanoculebrones.blogspot.com/2017/07/juan-del-encina-analisis-de-dos.html?m=1\">Juan del Encina: Análisis de los villancicos</a>"
+  lyrics:
+    -
+      original:
+        Hoy comamos y bebamos
+        y cantemos y holguemos,
+        que mañana ayunaremos.
+      translation:
+    -
+      original:
+        Por honra de San Antruejo
+        parémonos hoy bien anchos,
+        embutamos estos panchos,
+        recalquemos el pellejo.
+      translation:
+    -
+      original:
+        Que costumbre es de consejo,
+        que todos hoy nos hartemos,
+        que mañana ayunaremos.
+      translation:
+    -
+      original:
+        Honremos a tan buen santo,
+        porque en hambre nos acorra;
+        comamos a calca porra,
+        que mañana hay gran quebranto.
+      translation:
+    -
+      original:
+        Comamos, bebamos tanto,
+        hasta que nos reventemos,
+        que mañana ayunaremos.
+      translation:
+    -
+      original:
+        Bebe, Bras, más tú, Beneyto,
+        beba Pidruelo y Llorente,
+        bebe tú primeramente,
+        quitarnos has deste preito.
+      translation:
+    -
+      original:
+        En beber bien me deleyto,
+        daca, daca, beberemos,
+        que mañana ayunaremos.
+      translation:
 sibilla:
   title: El cant de la Sibilla
   image: sibilla.jpg
