@@ -145,21 +145,25 @@ non-nobis:
   image: stickers-templar-cross-non-nobis-domine.jpg
   filter:
     - dowland
+    - sacra
 magnificat-lassus:
   title: Magnificat VIII toni Lassus
   image: magnificat.jpg
   filter:
     - lassus
+    - sacra
 joana:
   title: Porque não me vês Joana
   image: joana.jpg
   filter:
     - cancdelvas
+    - secular
 dindirindin:
   title: Dindirindin
   image: cancpalacio.jpg
   filter:
-    - cancpalacio 
+    - cancpalacio
+    - secular
 ay-triste:
   title: Ay triste que vengo
   image: juandeencina.webp
@@ -248,22 +252,26 @@ occhi:
   title: O occhi, manza mia
   image: lassus.jpg
   filter:
-    - lassus 
+    - lassus
+    - secular
 now-o-now:
   title: Now, o now I needs must part
   image: dowland.jpg
   filter:
-    - dowland 
+    - dowland
+    - secular
 belle:
   title: Belle qui tient ma vie
   image: arbeau.jpg
   filter:
-    - arbeau 
+    - arbeau
+    - secular
 pastime:
   title: Pastime with good company
   image: henryviii.webp
   filter:
-    - henryvii 
+    - henryvii
+    - secular
 hoy-comamos:
   title: Hoy comamos y bebamos
   image: hoycomamos.webp
@@ -276,7 +284,7 @@ hoy-comamos:
       ano: <a href="https://www.cpdl.org/wiki/index.php/Ay,_triste_que_vengo_(Juan_del_Encina)">1465</a>
       língua: Espanhol antigo
   description:
-    - Este <a href="https://escolamusicartchapeco.com.br/glossario/o-que-e-villancico/#:~:text=Villancico%20%C3%A9%20um%20g%C3%AAnero%20musical,festividades%20religiosas%2C%20como%20o%20Natal.">Villancico</a> o final de uma peça protagonizada por quatro rústicos cujos nomes encontramos na letra, uma canção de antruejo, ou seja, de carnaval, festa em que os excessos são permitidos.
+    - Este <a href="https://escolamusicartchapeco.com.br/glossario/o-que-e-villancico/#:~:text=Villancico%20%C3%A9%20um%20g%C3%AAnero%20musical,festividades%20religiosas%2C%20como%20o%20Natal.">villancico</a> é cantado ao final de uma peça protagonizada por quatro rústicos (Bras, Beneyto, Pidruelo e Llorente), uma canção de antruejo, ou seja, de carnaval, festa em que os excessos são permitidos antes da privação da quaresma ("amanhã jejuaremos").
     - "Fontes: <a href=\"https://musicalyanoculebrones.blogspot.com/2017/07/juan-del-encina-analisis-de-dos.html?m=1\">Juan del Encina: Análisis de los villancicos</a>"
   lyrics:
     -
