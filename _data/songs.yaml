@@ -166,11 +166,39 @@ magnificat-lassus:
     - lassus
     - sacra
 joana:
-  title: Porque não me vês Joana
+  title: Porque me não vês Joana
   image: joana.jpg
   filter:
     - cancdelvas
     - secular
+    - anon
+  description:
+    - 
+      Este <a href="https://www.cpdl.org/wiki/index.php/Category:Villancicos">villancico</a> expressa a dor da saudade e faz parte do <a href="https://www.cpdl.org/wiki/index.php/Cancioneiro_de_Elvas">Cancioneiro de Elvas</a>, uma coletânea do século XVI de canções de regiões que hoje fazem parte de Portugal e Espanha.
+  record:
+      autor: Anônimo
+      ano: <a href="https://www.cpdl.org/wiki/index.php/Porque_me_n%C3%A3o_v%C3%AAs_Jo%C3%A3na_(Anonymous)">1560</a>
+      língua: Português
+  lyrics:
+    -
+      original:
+        Porque me não vês, Joana?
+        Pois sabeis que meu desejo
+        cresce quando não te vejo.
+      translation:
+    -
+      original:
+        Cresce se estou na cidade,
+        e não me deixa no mato.
+        Não sei donde me resguarde
+        e de tudo me recato.
+      translation:
+    -
+      original:
+        Não me custa tão barato
+        o dia que não te vejo,
+        que não morra de desejo.
+      translation:
 dindirindin:
   title: Dindirindin
   image: cancpalacio.jpg
