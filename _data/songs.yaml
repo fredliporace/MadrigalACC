@@ -297,8 +297,10 @@ hoy-comamos:
       ano: <a href="https://www.cpdl.org/wiki/index.php/Ay,_triste_que_vengo_(Juan_del_Encina)">1465</a>
       língua: Espanhol antigo
   description:
-    - Este <a href="https://escolamusicartchapeco.com.br/glossario/o-que-e-villancico/#:~:text=Villancico%20%C3%A9%20um%20g%C3%AAnero%20musical,festividades%20religiosas%2C%20como%20o%20Natal.">villancico</a> é cantado ao final de uma peça protagonizada por quatro rústicos (Bras, Beneyto, Pidruelo e Llorente), uma canção de antruejo, ou seja, de carnaval, festa em que os excessos são permitidos antes da privação da quaresma ("amanhã jejuaremos").
+    - Este <a href="https://escolamusicartchapeco.com.br/glossario/o-que-e-villancico/#:~:text=Villancico%20%C3%A9%20um%20g%C3%AAnero%20musical,festividades%20religiosas%2C%20como%20o%20Natal.">villancico</a> é cantado ao final de uma <a href="https://www.cervantesvirtual.com/obra-visor/egloga-representada-la-mesma-noche-de-antruejo--0/html/ff977b50-82b1-11df-acc7-002185ce6064_2.html">peça</a> protagonizada por quatro rústicos (Bras, Beneyto, Pidruelo e Llorente), uma canção de antruejo, ou seja, de carnaval, festa em que os excessos são permitidos antes da privação da quaresma ("amanhã jejuaremos").
     - "Fontes: <a href=\"https://musicalyanoculebrones.blogspot.com/2017/07/juan-del-encina-analisis-de-dos.html?m=1\">Juan del Encina: Análisis de los villancicos</a>"
+  # https://lyricstranslate.com/en/hoy-comamos-y-bebamos-hoje-comamos-e-bebamos.html#songtranslation
+  # https://www.cervantesvirtual.com/obra-visor/hoy-comamos-y-bebamos-comida-bebida-y-celebracion-en-las-eglogas-de-antruejo-de-juan-del-encina/html/e97243da-89d7-4f48-b0c2-07ce855f76f4_5.html#I_0_
   lyrics:
     -
       original:
@@ -306,32 +308,49 @@ hoy-comamos:
         y cantemos y holguemos,
         que mañana ayunaremos.
       translation:
+        Hoje comamos e bebamos,
+        cantemos e relaxemos,
+        pois amanhã jejuaremos.
     -
       original:
         Por honra de San Antruejo
         parémonos hoy bien anchos,
-        embutamos estos panchos,
+        embutamos estos <a href="https://dle.rae.es/pancho?m=form">panchos</a>,
         recalquemos el pellejo.
       translation:
+        Pela honra de Santo Antruejo (Carnaval)
+        aumentemos a nossa cintura,
+        estufemos a nossa pança,
+        alarguemos nossa pele.
     -
       original:
         Que costumbre es de consejo,
-        que todos hoy nos hartemos,
+        que todos hoy nos <a href="https://dle.rae.es/hartar?m=form">hartemos</a>,
         que mañana ayunaremos.
       translation:
+        A tradição é de aconselhar
+        que hoje todos nos fartemos,
+        pois amanhã jejuaremos.
     -
       original:
         Honremos a tan buen santo,
         porque en hambre nos acorra;
-        comamos a calca porra,
-        que mañana hay gran quebranto.
+        comamos a <a href="https://corociudaddelospoetas.wordpress.com/2014/06/05/hoy-comamos-y-bebamos/">calca</a> <a href="https://opalcoeomundo.blogspot.com/2010/09/ciganos-enzina-e-calca-porra.html">porra</a>,
+        que mañana hay gran <a href="https://dle.rae.es/quebranto?m=form">quebranto</a>.
       translation:
+        Honremos a tão bom santo,
+        porque com fome estamos;
+        comamos a não mais poder,
+        pois amanhã há grande aflição.
     -
       original:
         Comamos, bebamos tanto,
         hasta que nos reventemos,
         que mañana ayunaremos.
       translation:
+        Comamos e bebamos tanto,
+        até que nos arrebentemos,
+        pois amanhã jejuaremos.
     -
       original:
         Bebe, Bras, más tú, Beneyto,
@@ -339,12 +358,19 @@ hoy-comamos:
         bebe tú primeramente,
         quitarnos has deste preito.
       translation:
+        Beba Bras mais você, Beneyto,
+        beba Pidruelo e Llorente,
+        beba você antes,
+        nos afastemos deste "preito".
     -
       original:
         En beber bien me deleyto,
         daca, daca, beberemos,
         que mañana ayunaremos.
       translation:
+        Ao beber bastante me deleito,
+        da cá, da cá, beberemos.
+        pois amanhã jejuaremos.
 sibilla:
   title: El cant de la Sibilla
   image: sibilla.jpg
