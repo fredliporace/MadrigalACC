@@ -205,6 +205,48 @@ dindirindin:
   filter:
     - cancpalacio
     - secular
+    - anon
+  record:
+      autor: Anônimo
+      ano (publicação): <a href="https://www.cpdl.org/wiki/index.php/Dindirindin_(Anonymous)">1465</a>
+      língua: <a href="https://en.wikipedia.org/wiki/Mediterranean_Lingua_Franca">Língua Franca</a>
+  description:
+    - 
+      Publicada no Cancionero Musical de Palacio este é um exemplo de texto <a href="https://en.wikipedia.org/wiki/Macaronic_language">macarrônico</a>, que <a href="https://troballeros.wordpress.com/2010/12/09/dindirindin/">mistura</a> Catalão, Occitano e Francês.
+    -
+      O tema é o <a href="https://es.m.wikipedia.org/wiki/Amor_cort%C3%A9s">amor cortés</a>, um conceito literário criado na Europa medieval que expressava o amor de forma nobre, sincera e cavaleiresca. Geralmente o amor cortês era secreto e entre membros da realeza, não sendo oficializado pelo matrimônio. Nesta canção a mulher pede a um pássaro mensageiro (rouxinol) que informe ao seu amor que ela se casou.
+  # https://corociudaddelospoetas.wordpress.com/2020/04/10/confinados-xxv/
+  # "Lingua Franca, un tipo de lengua usada en composiciones musicales populares y un tanto artificial en cuanto que recogía formas comunes de diferentes hablas para lograr entenderse entre diversas comunidades lingüísticas."
+  lyrics:
+    -
+      original:
+        Dindirin danya, dindirindin.
+      translation:
+        Dindirin danya, dindirindin.
+    -
+      original:
+        Je me levé un bel maitin,
+        Matineta per la prata;
+        encontré le ruyseñor,
+        que cantaba so la rama, dindirindin.
+        Dindirin danya, dindirindin.
+      translation:
+        Um belo dia acordei,
+        e passei a manhã na campina;
+        encontrei o rouxinol,
+        que cantava sobre os galhos, dindirindín.
+    -
+      original:
+        "\"Ruyseñor, le ruyseñor,
+        facteme aquesta <a href=\"https://dle.rae.es/embajada?m=form\">embaxata</a>,
+        Y digalo a mon ami:
+        que je ya só maritata, dindirindin.\"
+        Dindirin danya, dindirindin."
+      translation:
+        "Rouxinol, oh rouxinol,
+        passe esta mensagem importante,
+        e diga ao meu amigo:
+        que já estou casada, dindirindín."
 ay-triste:
   title: Ay triste que vengo
   image: juandeencina.webp
@@ -258,7 +300,7 @@ pase-el-agua:
     - anon
     - secular
   description:
-    - Várias canções do Cancionero Musical de Palacio são "macarrônicas", com textos combinando várias línguas
+    - Várias canções do Cancionero Musical de Palacio são <a href="https://en.wikipedia.org/wiki/Macaronic_language">macarrônicas</a>, com textos combinando várias línguas
       de maneira caprichosa, muitas vezes na mesma frase. Pase el agoa é uma destas peças, com texto em Português Galego
       e Francês. Julieta deve ter ficado impressionada.
     - Descrição obtida do <a href="https://www.early-music.org/">Texas Early Music Project</a>.
