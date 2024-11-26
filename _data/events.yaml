@@ -59,6 +59,18 @@
   status: scheduled
   description:
     - Encontro de coros da ACC
+  carousel:
+    - Sagrados Corações de Jesus e Maria.jpg
+  program:
+    - jesu-rex
+    - ros
+    - magnificat-lassus
+  record:
+    Alaúde: Alberto Brandão
+    Flauta doce e percussão: Isa Machado
+    Flauta doce e viola da gamba: Luiz Carlos Peçanha
+    Preparação vocal: Noeli Melo
+    Regência: Luiz Carlos Peçanha
 2024-12-22-0:
   place:  Igreja Martin Luther
   time: "10:00"
@@ -66,3 +78,25 @@
   status: scheduled
   description:
     - Apresentação com o Coro Intercantus
+  carousel:
+    - Martin_Luther.jpg
+  program:
+    - jesu-rex
+    - ros
+    - ave-verum-byrd
+    - magnificat-lassus
+    - mignonne
+    - no-desmayes
+    - ahi
+    - belle
+    - occhi
+    - joana
+    - dindirindin
+    - pase-el-agua
+    - hoy-comamos
+  record:
+    Alaúde: Alberto Brandão
+    Flauta doce e percussão: Isa Machado
+    Flauta doce e viola da gamba: Luiz Carlos Peçanha
+    Preparação vocal: Noeli Melo
+    Regência: Luiz Carlos Peçanha
