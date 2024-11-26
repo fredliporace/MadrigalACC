@@ -2,6 +2,8 @@ anon:
   name: Anônimo
 arbeau:
   name: Arbeau
+byrd:
+  name: Byrd
 dowland:
   name: Dowland
 cancdelvas:
@@ -14,8 +16,12 @@ henryvii:
   name: Henry VIII
 lassus:
   name: Lassus
+mondejar:
+  name: Mondéjar
 palestrina:
   name: Palestrina
+pretorius:
+  name: Pretorius
 ronsard:
   name: Ronsard
 sacra:
