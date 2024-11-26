@@ -451,3 +451,23 @@ sola:
   image: cancpalacio.jpg
   filter:
     - anon
+    - cancpalacio
+ros:
+  title: Es ist ein Ros entsprungen
+  image: Rosentsprungen-255x300.webp
+  filter:
+    - pretorius
+    - sacra
+ave-verum-byrd:
+  title: Ave verum corpus (Byrd)
+  image: St_Michael_the_Archangel,_Findlay,_OH_-_bread_and_wine_crop_1.jpg
+  filter:
+    - byrd
+    - sacra
+no-desmayes:
+  title: No desmayes, coraçon
+  image: cancpalacio.jpg
+  filter:
+    - secular
+    - cancpalacio
+    - mondejar
