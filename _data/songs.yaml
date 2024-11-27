@@ -165,6 +165,92 @@ magnificat-lassus:
   filter:
     - lassus
     - sacra
+  record:
+      autor (música): Orlando di Lasso
+      língua: Latim
+  description:
+    - 
+      O texto do Magnificat é do primeiro capítulo do Evangelho de São Lucas, que conta a estória cristã da Anunciação. Maria, após receber a notícia que dará luz ao filho de Deus, visita sua prima Elisabete e descobre que esta também está grávida (de João Batista). Em resposta, Maria recita o texto. O trecho "Gloria Patri", acrescentado ao final, não faz parte do Evangelho.
+    - 
+      No início da renascença muitos compositores começaram a criar música para cantar o texto como parte das Vésperas, um deles sendo Orlando di Lasso. A estrutura é a de um salmo responsorial, com trechos sendo executados por um cantor solo e resposta de um coro. Os trechos solo seguem a estrutura do canto Gregoriano com os seus tons salmódicos, no caso desta peça temos o uso do oitavo tom.
+    -
+      "Fontes: <a href='https://www.grahamsmusic.net/post/magnificat'>Magnificat Graham's music</a>, <a href='https://www.vaticannews.va/pt/oracoes/magnificat.html'>Vatican News (tradução).</a>"
+  lyrics:
+    -
+      original:
+        Magnificat anima mea Dominum
+      translation:
+        A minha alma glorifica ao Senhor
+    -
+      original:
+        et exsultavit spiritus meus in Deo salutari meo
+      translation:
+        e o meu espírito se alegra em Deus, meu Salvador.
+    -
+      original:
+        quia respexit humilitatem ancillae suae;
+        Ecce enim ex hoc beatam me dicent omnes generationes
+      translation:
+        "Porque pôs os olhos na humildade da sua serva:
+        de hoje em diante me chamarão bem-aventurada todas as gerações."
+    -
+      original:
+        quia fecit mihi magna, qui potens est, et sanctum nomen eius
+      translation:
+        "O Todo-Poderoso fez em mim maravilhas:
+        Santo é o seu nome."
+    -
+      original:
+        Et misericordia eius a progenie in progenies timentibus eum.
+      translation:
+        A sua misericórdia se estende de geração em geração 
+        sobre aqueles que O temem. 
+    -
+      original:
+        Fecit potentiam in brachio suo;
+        dispersit superbos mente cordis sui
+      translation:
+        Manifestou o poder do seu braço 
+        e dispersou os soberbos.
+    -
+      original:
+        deposuit potentes de sede, et exaltavit humiles
+      translation:
+        Derrubou os poderosos de seus tronos 
+        e exaltou os humildes. 
+    -
+      original:
+        esurientes implevit bonis
+        et divites dimisit inanes.
+      translation:
+        Aos famintos encheu de bens 
+        e aos ricos despediu de mãos vazias. 
+    -
+      original:
+        Suscepit Israel puerum suum, recordatus misericordiae suae,
+      translation:
+        Acolheu Israel seu servo, 
+        lembrado da sua misericórdia,
+    -
+      original:
+        sicut locutus est ad patres nostros.
+        Abraham et semini eius in saecula.
+      translation:
+        como tinha prometido a nossos pais, 
+        a Abraão e à sua descendência 
+        para sempre. 
+    -
+      original:
+        Gloria Patri, et Filio, et Spiritui Sancto,
+      translation:
+        Glória ao Pai e ao Filho 
+        e ao Espírito Santo. 
+    -
+      original:
+        "sicut erat in principio, et nunc, et semper: et in Saecula saeculorum. Amen"
+      translation:
+        Como era no princípio, agora e sempre. 
+        Amém.
 joana:
   title: Porque me não vês Joana
   image: joana.jpg
