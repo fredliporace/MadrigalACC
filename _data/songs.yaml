@@ -550,6 +550,50 @@ ave-verum-byrd:
   filter:
     - byrd
     - sacra
+  record:
+      autor (música): William Byrd
+      ano (música): <a href="https://imslp.org/wiki/Ave_verum_corpus%2C_T_92_(Byrd%2C_William)">1605</a>
+      língua: Latim
+  description:
+    -
+      "\"Ave verum corpus\" é um canto eucarístico musicado por diversos compositores. Era cantado na idade média no momento da consagração. A oração é uma meditação sobre a presença de Jesus na Eucaristia e o seu sofrimento na cruz, redentor para todos os fiéis."
+    - "Fontes: <a href='http://www.hottopos.com/mirand7/in_mortis_examine.htm'>L. Jean Lauand (tradução)</a>" 
+  lyrics:
+    -
+      original:
+        Ave verum corpus, natum
+        de Maria Virgine,
+      translation:
+        Salve, ó verdadeiro corpo nascido da Virgem Maria
+    -
+      original:
+        vere passum, immolatum
+        in cruce pro homine
+      translation:
+        Que verdadeiramente padeceu e foi imolado na cruz pelo homem
+    -
+      original:
+        cuius latus perforatum
+        fluxit aqua et sanguine
+      translation:
+        De seu lado transpassado fluiu água e sangue
+    -
+      original:
+        esto nobis prægustatum
+        in mortis examine
+      translation:
+        Sê para nós remédio na hora tremenda da morte
+    -
+      original:
+        O Iesu dulcis, O Iesu pie,
+        O Iesu, fili Mariae.
+      translation:
+        Ó doce Jesus, ó bom Jesus, ó Jesus filho de Maria.
+    -
+      original:
+        Miserere mei. Amen.
+      translation:
+        Tenha misericórdia de mim. Amém.
 no-desmayes:
   title: No desmayes, coraçon
   image: cancpalacio.jpg
