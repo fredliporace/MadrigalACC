@@ -527,11 +527,11 @@ hoy-comamos:
         Ao beber bastante me deleito,
         da cá, da cá, beberemos.
         pois amanhã jejuaremos.
-sibilla:
-  title: El cant de la Sibilla
-  image: sibilla.jpg
-  filter:
-    - anon
+#sibilla:
+#  title: El cant de la Sibilla
+#  image: sibilla.jpg
+#  filter:
+#    - anon
 sola:
   title: Sola me dejaste
   image: cancpalacio.jpg
