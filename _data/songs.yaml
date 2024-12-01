@@ -430,11 +430,48 @@ now-o-now:
     - dowland
     - secular
 belle:
-  title: Belle qui tient ma vie
+  # https://earlymusicmuse.com/orchesographie/
+  title: Belle qui tiens ma vie
   image: arbeau.jpg
   filter:
     - arbeau
     - secular
+  description:
+    - 
+      Belle qui tiens ma vie é uma pavane para quatro vozes (acompanhada por um tambor) composta por Thoinot Arbeau (pseudônimo de Jean Tabourot) e publicada no tratado <a href="https://imslp.org/wiki/Orch%C3%A9sographie_(Arbeau,_Thoinot)">Orchésographie</a> de 1589. Seu texto, assim como o de <a href="dindirindin.html">Dindirindin</a>, celebra o <a href="https://es.m.wikipedia.org/wiki/Amor_cort%C3%A9s">amor cortês</a> entre um homem e sua amada.
+    - 'Fontes: <a href="https://fr.m.wikipedia.org/wiki/Belle_qui_tiens_ma_vie">Wikipedia FR (descrição)</a>, <a href="https://stcpress.org/pieces/belle_qui">St. Cecilia Press (tradução)</a>.'
+  record:
+      autor: Thoinot Arbeau
+      ano: 1589
+      língua: Francês
+  lyrics:
+    -
+      original:
+        Belle, qui tiens ma vie captive dans tes yeux,
+        Qui m'a l'âme ravie d'un souriz gracieux,
+        Viens tôt me secourir, ou me faudra mourir.
+      translation:
+        Bela, toda a minha vida é prisioneira de seus olhos,
+        Que minha alma alegra com um sorriso gracioso,
+        Venha logo me socorrer ou irei morrer.
+    -
+      original:
+        Pourquoi fuis-tu, mignarde, si je suis près de toy?
+        Quand tes yeux je regarde, je me perds dedans moy,
+        Car tes perfections changent mes actions.
+      translation:
+        Por que, amor, foges de mim quando nossos caminhos se cruzam?
+        Quando vejo dentro de seus olhos me perco dentro de mim mesmo,
+        Cada coisa perfeita que você faz melhora também minhas ações.
+    -
+      original:
+        Approche donc, ma belle, approche toy mon bien.
+        Ne me sois plus rebelle, puisque mon coeur est tien,
+        Pour mon mal appaiser, donne moy un baiser.
+      translation:
+        Então, minha bela, aproxime-se de mim.
+        Não tenha medo pois o meu coração já é seu,
+        Para me livrar desta dor dê me seu beijo perfeito.
 pastime:
   title: Pastime with good company
   image: henryviii.webp
