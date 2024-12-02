@@ -423,6 +423,30 @@ occhi:
   filter:
     - lassus
     - secular
+  record:
+      autor: Orlando di Lasso
+      ano: <a href="https://www.cpdl.org/wiki/index.php/Libro_de_villanelle,_moresche_et_altre_canzoni_(Orlando_di_Lasso)">1581</a>
+      língua: Italiano
+  description:
+    - Orlando di Lasso compôs peças em todas os estilos musicais predominantes de seu tempo, incluindo madrigais e missas (veja o <a href="magnificat-lassus.html">Magnificat</a> em nosso repertório).
+    - '"O occhi manza mia" é considerado um de seus mais importantes madrigais, junto com "Matona mia cara"'
+  lyrics:
+    -
+      original:
+        O occhi, manza mia, cigli dorati,
+        o faccia d'una luna stralucente,
+      translation:
+        Oh, olhos de minha amada, seus cílios dourados,
+        oh rosto tão luminoso quanto a Lua resplandecente,
+    -
+      original:
+        Tienemi mente,
+        gioia mia bella,
+        Guardam'un poc'a me, fami contiento.
+      translation:
+        Tenha-me em mente,
+        meu adorável tesouro,
+        Olhe para mim por um momento e me faça feliz.
 now-o-now:
   title: Now, o now I needs must part
   image: dowland.jpg
