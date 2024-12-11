@@ -170,7 +170,7 @@ magnificat-lassus:
       língua: Latim
   description:
     - 
-      O texto do Magnificat é do primeiro capítulo do Evangelho de São Lucas, que conta a estória cristã da Anunciação. Maria, após receber a notícia que dará luz ao filho de Deus, visita sua prima Elisabete e descobre que esta também está grávida (de João Batista). Em resposta, Maria recita o texto. O trecho "Gloria Patri", acrescentado ao final, não faz parte do Evangelho.
+      O texto do Magnificat é do primeiro capítulo do Evangelho de São Lucas, que conta a estória cristã da Anunciação. Maria, após receber a notícia que dará luz ao filho de Deus, visita sua prima Isabel e descobre que esta também está grávida (de João Batista). Em resposta, Maria recita o texto. O trecho "Gloria Patri", acrescentado ao final, não faz parte do Evangelho.
     - 
       No início da renascença muitos compositores começaram a criar música para cantar o texto como parte das Vésperas, um deles sendo Orlando di Lasso. A estrutura é a de um salmo responsorial, com trechos sendo executados por um cantor solo e resposta de um coro. Os trechos solo seguem a estrutura do canto Gregoriano com os seus tons salmódicos, no caso desta peça temos o uso do oitavo tom.
     -
@@ -605,6 +605,59 @@ ros:
   filter:
     - pretorius
     - sacra
+  description:
+    # https://en.wikipedia.org/wiki/Es_ist_ein_Ros_entsprungen
+    -
+       Es ist ein Ros entsprungen ("Eis que uma rosa nasceu") é uma canção de Natal e hino Mariano de origem germânica. A rosa no texto é uma referência à Virgem Maria. O hino menciona o profecias de Isaías no Antigo Testamento, que na interpretação cristã descrevem a Incarnação de Jesus e a árvore de Jessé, um símbolo tradicional da linhagem de Jesus. Por conta deste tema o hine é popular, até os dias de hoje, no Advento.
+  record:
+      autor (música): Michael Pretorius
+      ano: <a href="https://www.cpdl.org/wiki/index.php/Musae_Sioniae,_sechster_Theil_(Michael_Praetorius)">1609</a>
+      língua: Alemão
+  lyrics:
+    -
+      original:
+        Es ist ein Ros entsprungen,
+        Aus einer Wurzel zart.
+        Wie uns die Alten sungen,
+        Von Jesse war die Art.
+        Und hat ein Blümlein bracht,
+        Mitten im kalten Winter,
+        Wohl zu der halben Nacht.
+      translation:
+        Uma rosa brotou,
+        De uma raiz tenra.
+        Como os antigos cantavam para nós,
+        Sua linhagem era de Jessé.
+        E deu à luz uma florzinha,
+        No meio do inverno frio,
+        Bem na metade da noite.
+#    -
+#      original:
+#        Das Röslein, das ich meine,
+#        Davon Jesaia sagt,
+#        Maria ist die reine,
+#        Die uns das Blümlein bracht.
+#        Aus Gottes ew'gem Rat
+#        Hat sie ein Kind geboren
+#        Und blieb ein reine Magd.
+#      translation:
+    -
+      original:
+        Das Blümelein, so kleine,
+        das duftet uns so süß,
+        mit seinem hellen Scheine
+        vertreibt's die Finsternis.
+        Wahr Mensch und wahrer Gott,
+        hilft uns aus allem Leide,
+        rettet von Sünd und Tod.
+      translation:
+        A florzinha tão pequena
+        Cheira tão doce para nós
+        Com a sua luz brilhante
+        Afugenta a escuridão
+        Verdadeiro homem e verdadeiro Deus
+        Ajude-nos a sair de todo mal
+        Salva do pecado e da morte
 ave-verum-byrd:
   title: Ave verum corpus (Byrd)
   image: St_Michael_the_Archangel,_Findlay,_OH_-_bread_and_wine_crop_1.jpg
