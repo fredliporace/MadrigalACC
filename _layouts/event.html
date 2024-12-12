@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% assign yyyymmdd = page.path | replace: ".", "-" | split: "-" %}
+{% if page.path == "next.html" %}
+  {% assign ppath = page.ppath %}
+{% else %}
+  {% assign ppath = page.path %}
+{% endif %}
+{% assign yyyymmdd = ppath | replace: ".", "-" | split: "-" %}
 {% assign event-key = yyyymmdd | slice: 0,4 | join: "-" %}
 {% assign event-date = yyyymmdd | slice: 0,3 | reverse | join: "/" %}
 {% assign event = site.data.events[event-key] %}
@@ -109,6 +114,12 @@
           <div class="swiper-pagination"></div>
         </div>
       -->
+
+        {% if page.path == "next.html" %}
+        <div class="portfolio-description">
+          Esta é a próxima apresentação agendada. Veja aqui as <a href="index.html#aprpassadas">apresentações anteriores.</a>
+        </div>
+        {% endif %}
 
         <div class="row justify-content-between gy-4 mt-4">
           <div class="col-lg-8" data-aos="fade-up">
