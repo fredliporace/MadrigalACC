@@ -717,3 +717,9 @@ no-desmayes:
     - secular
     - cancpalacio
     - mondejar
+endurer:
+  title: Dame, je weil endurer
+  image: Machaut_1.jpg
+  filter:
+    - machaut
+    - secular
