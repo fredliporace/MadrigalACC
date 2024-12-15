@@ -58,7 +58,7 @@
   place: Igreja dos Sagrados Corações de Jesus e Maria
   time: "após missa das 18:00"
   weekday: sábado
-  status: scheduled
+  status: past
   description:
     - Encontro de coros da ACC
   carousel:
@@ -66,8 +66,10 @@
   program:
     - jesu-rex
     - ros
-    - magnificat-lassus
+    - dindirindin
   record:
+    Flauta doce: Luiz Carlos Peçanha
+    Percussão: Isa Machado
     Preparação vocal: Noeli Melo
     Regência: Luiz Carlos Peçanha
 2024-12-22-0:
