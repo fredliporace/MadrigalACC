@@ -74,7 +74,7 @@
     Regência: Luiz Carlos Peçanha
 2024-12-22-0:
   place:  Igreja Martin Luther
-  time: "10:00"
+  time: "10:30"
   weekday: domingo
   status: scheduled
   description:
@@ -83,7 +83,6 @@
     - Martin_Luther.jpg
   program:
     - jesu-rex
-    - ros
     - ave-verum-byrd
     - magnificat-lassus
     - mignonne
@@ -91,9 +90,10 @@
     - occhi
     - dindirindin
     - pase-el-agua
+    - ros
   record:
     Alaúde: Alberto Brandão
     Flauta doce e percussão: Isa Machado
-    Flauta doce e viola da gamba: Luiz Carlos Peçanha
+    Flauta doce: Luiz Carlos Peçanha
     Preparação vocal: Noeli Melo
     Regência: Luiz Carlos Peçanha
