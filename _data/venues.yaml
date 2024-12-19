@@ -1,0 +1,17 @@
+sto_inacio:
+  name: Igreja Santo Inácio
+  carousel:
+    - igreja_santo_inacio.jpg
+    - igreja_santo_inacio_interior.jpg
+sto_antonio_pobres:
+  name: Igreja Santo Antônio dos Pobres
+  carousel:
+    - sto_antonio_pobres_orgao.jpg
+sagrados_coracoes_jesus_maria:
+  name: Igreja dos Sagrados Corações de Jesus e Maria
+  carousel:
+    - Sagrados Corações de Jesus e Maria.jpg
+martin_luther:
+  name:  Igreja Martin Luther
+  carousel:
+    - Martin_Luther.jpg

@@ -1,11 +1,8 @@
 2024-11-16-0:
-  place: Igreja Santo Inácio
+  venue: sto_inacio
   time: "18:00"
   weekday: sábado
   status: cancelled
-  carousel:
-    - igreja_santo_inacio.jpg
-    - igreja_santo_inacio_interior.jpg
   program:
     - non-nobis
     - jesu-rex
@@ -29,14 +26,12 @@
     Preparação vocal: Noeli Melo
     Regência: Luiz Carlos Peçanha
 2024-12-13-0:
-  place: Igreja Santo Antônio dos Pobres
+  venue: sto_antonio_pobres
   time: "18:00"
   weekday: sexta-feira
   status: past
   description:
     - Apresentação com o Coro de Câmara da ACC
-  carousel:
-    - sto_antonio_pobres_orgao.jpg
   program:
     - jesu-rex
     - ros
@@ -55,14 +50,12 @@
     Preparação vocal: Noeli Melo
     Regência: Luiz Carlos Peçanha
 2024-12-14-0:
-  place: Igreja dos Sagrados Corações de Jesus e Maria
+  venue: sagrados_coracoes_jesus_maria
   time: "após missa das 18:00"
   weekday: sábado
   status: past
   description:
     - Encontro de coros da ACC
-  carousel:
-    - Sagrados Corações de Jesus e Maria.jpg
   program:
     - jesu-rex
     - ros
@@ -73,14 +66,15 @@
     Preparação vocal: Noeli Melo
     Regência: Luiz Carlos Peçanha
 2024-12-22-0:
-  place:  Igreja Martin Luther
+  venue: martin_luther
+  #place:  Igreja Martin Luther
   time: "10:30"
   weekday: domingo
   status: scheduled
   description:
     - Apresentação com o Coro Intercantus
-  carousel:
-    - Martin_Luther.jpg
+  #carousel:
+  #  - Martin_Luther.jpg
   program:
     - jesu-rex
     - ave-verum-byrd
