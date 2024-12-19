@@ -39,11 +39,11 @@
 
       <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
-        {% for item in event.carousel %}
+        {% for item in site.data.venues[event.venue].carousel %}
           <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
             <img src="assets/img/places/{{item}}" alt="">
             <div class="carousel-container">
-              <h2>{{ event.place }}</h2>
+              <h2>{{ site.data.venues[event.venue].name }}</h2>
               <p>{{ event-date }} ({{ event.weekday }}), {{ event.time }} hs</p>
             </div>
           </div>
@@ -238,15 +238,7 @@
     </div>
     -->
 
-    <div class="container copyright text-center mt-4">
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
+    {% include copyright.html %}
 
   </footer>
 
