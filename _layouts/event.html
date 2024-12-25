@@ -36,48 +36,39 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
+        <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
-      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-        {% for item in site.data.venues[event.venue].carousel %}
-          <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
-            <img src="assets/img/places/{{item}}" alt="">
-            <div class="carousel-container">
-              <h2>{{ site.data.venues[event.venue].name }}</h2>
-              <p>{{ event-date }} ({{ event.weekday }}), {{ event.time }} hs</p>
+          {% if event-date != "31/12/9999" %}
+            {% for item in site.data.venues[event.venue].carousel %}
+              <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
+                <img src="assets/img/places/{{item}}" alt="">
+                <div class="carousel-container">
+                  <h2>{{ site.data.venues[event.venue].name }}</h2>
+                  <p>{{ event-date }} ({{ event.weekday }}), {{ event.time }} hs</p>
+                </div>
+              </div>
+            {% endfor %}
+          {% else %}
+            <div class="carousel-item active">
+              <div class="carousel-container">
+                <h2>Sem apresentação agendada</h2>
+              </div>
             </div>
-          </div>
-        {% endfor %}
+         {% endif %}
 
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
+          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+          </a>
 
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
+          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+          </a>
 
-        <ol class="carousel-indicators"></ol>
-  
-      </div>
+          <ol class="carousel-indicators"></ol>
+    
+        </div>
     </section>
     
-    <!-- Page Title -->
-    <!--
-    <div class="page-title dark-background">
-      <div class="container">
-        <h1>{{ event.place }}</h1>
-        <h2>{{ event-date }} ({{ event.weekday }}), {{ event.time }} hs</h2>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="index.html#aprconfirmadas">Apresentações</a></li>
-            <li class="current">{{ event.place }}, {{ event-date }}</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
-
     <!-- Portfolio Details Section -->
     <section id="portfolio-details" class="portfolio-details section">
 
@@ -116,63 +107,69 @@
       -->
 
         {% if page.path == "next.html" %}
-        <div class="portfolio-description">
-          Esta é a próxima apresentação agendada. Veja aqui as <a href="index.html#aprpassadas">apresentações anteriores.</a>
-        </div>
+          <div class="portfolio-description">
+          {% if event-date != "31/12/9999" %}
+            Esta é a próxima apresentação agendada. Veja as <a href="index.html#aprpassadas">apresentações anteriores.</a>
+          {% else %}
+            Não existem apresentações agendadas. Veja as <a href="index.html#aprpassadas">apresentações anteriores.</a>
+          {% endif %}
+          </div>
         {% endif %}
 
-        <div class="row justify-content-between gy-4 mt-4">
-          <div class="col-lg-8" data-aos="fade-up">
-            
-            <div class="portfolio-description">
-              <h2>Programação</h2>
-              <ol>
-                {% for song in event.program %}
-                  <li>
-                  {% if site.data.songs[song] contains "description" %}
-                    <a href="{{ song }}.html">{{ site.data.songs[song].title }}</a>
-                  {% else %}
-                    {{ site.data.songs[song].title }}
-                  {% endif %}
-                  </li>
-                {% endfor %}
-              </ol>
+        {% if event-date != "31/12/9999" %}
+          <div class="row justify-content-between gy-4 mt-4">
+            <div class="col-lg-8" data-aos="fade-up">
+              
+              <div class="portfolio-description">
+                <h2>Programação</h2>
+                <ol>
+                  {% for song in event.program %}
+                    <li>
+                    {% if site.data.songs[song] contains "description" %}
+                      <a href="{{ song }}.html">{{ site.data.songs[song].title }}</a>
+                    {% else %}
+                      {{ site.data.songs[song].title }}
+                    {% endif %}
+                    </li>
+                  {% endfor %}
+                </ol>
 
-              <!--
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <div>
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
-              </div>
-              -->
-            </div>
-          </div>
-
-          
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <div class="portfolio-info">
-              <h3>Ficha técnica</h3>
-              <ul>
-                {% for line in event.record %}
-                  <li><strong>{{ line[0] }}</strong>{{ line[1] }}</li>
-                {% endfor %}
                 <!--
-                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <div>
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                    <h3>Sara Wilsson</h3>
+                    <h4>Designer</h4>
+                  </div>
+                </div>
                 -->
-              </ul>
+              </div>
             </div>
-          </div>
-          
 
-        </div>
+            
+            <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="portfolio-info">
+                <h3>Ficha técnica</h3>
+                <ul>
+                  {% for line in event.record %}
+                    <li><strong>{{ line[0] }}</strong>{{ line[1] }}</li>
+                  {% endfor %}
+                  <!--
+                  <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
+                  <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+                  -->
+                </ul>
+              </div>
+            </div>
+            
+
+          </div>
+        {% endif %}
 
     </section><!-- /Portfolio Details Section -->
 

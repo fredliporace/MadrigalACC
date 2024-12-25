@@ -67,24 +67,20 @@
     Regência: Luiz Carlos Peçanha
 2024-12-22-0:
   venue: martin_luther
-  #place:  Igreja Martin Luther
   time: "10:30"
   weekday: domingo
-  status: scheduled
+  status: past
   description:
     - Apresentação com o Coro Intercantus
-  #carousel:
-  #  - Martin_Luther.jpg
   program:
     - jesu-rex
     - ave-verum-byrd
     - magnificat-lassus
+    - ros
     - mignonne
-    - no-desmayes
     - occhi
     - dindirindin
     - pase-el-agua
-    - ros
   record:
     Alaúde: Alberto Brandão
     Flauta doce e percussão: Isa Machado
