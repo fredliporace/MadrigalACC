@@ -70,7 +70,7 @@
   #place:  Igreja Martin Luther
   time: "10:30"
   weekday: domingo
-  status: scheduled
+  status: past
   description:
     - Apresentação com o Coro Intercantus
   #carousel:
